@@ -1,0 +1,13 @@
+name = "Overloaded Armor Bar"
+filename = "overloadedarmorbar-5.1.0.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "7a1cd685595816ddf3c598ab6c75c14864c0825a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3055679
+project-id = 314002

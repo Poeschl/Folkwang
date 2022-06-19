@@ -1,0 +1,13 @@
+name = "Decorative Blocks modded compat"
+filename = "decorative_blocks_abnormals-1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b982f159c05788707461867298a22fcf117d8168"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3311520
+project-id = 421760

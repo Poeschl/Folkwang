@@ -1,0 +1,13 @@
+name = "Netherite Horse Armor Mod"
+filename = "netheritehorsearmor-1.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bf6a09de732a03c5ceaa168a61940e2c22a17cc3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3172514
+project-id = 392701

@@ -1,0 +1,13 @@
+name = "Better Title Screen"
+filename = "BetterTitleScreen-1.16.4-1.10.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "aecf62d254395e4068b6537e0563291f8e1a7e67"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3111817
+project-id = 224223

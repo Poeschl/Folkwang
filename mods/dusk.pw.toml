@@ -1,0 +1,13 @@
+name = "Dusk[Forge/Fabric]"
+filename = "dusk-1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "19ace8dd6c4c4a2989e86576be990f0d6fb9e800"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3298234
+project-id = 468908

@@ -1,0 +1,13 @@
+name = "Bayou Blues"
+filename = "Bayou-Blues-1.16.5-1.0.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "5ac5559f0d267a104131609f837db89ea03774fa"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3342861
+project-id = 452344

@@ -1,0 +1,13 @@
+name = "Transport"
+filename = "Transport-1.16.5-3.7.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1bb22c300d636feafb2da3462470429955f61c10"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3386772
+project-id = 292692

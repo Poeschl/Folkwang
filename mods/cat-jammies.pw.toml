@@ -1,0 +1,13 @@
+name = "Cat Jammies"
+filename = "catjammies-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "63679578f39a34c07a607c6468a6862074f3cb93"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3252734
+project-id = 430906

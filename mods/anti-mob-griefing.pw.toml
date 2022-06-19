@@ -1,0 +1,13 @@
+name = "Anti Mob Griefing"
+filename = "antimobgriefing-1.16.5-1.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b6cda5b4244e7d271b4809ae80980e5e04dc2a41"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3447813
+project-id = 449140

@@ -1,0 +1,13 @@
+name = "Environmental"
+filename = "environmental-1.16.5-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3595c876c7826bd6546448dba80194788e2f9763"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3561534
+project-id = 388992

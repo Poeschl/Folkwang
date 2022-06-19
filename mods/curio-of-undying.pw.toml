@@ -1,0 +1,13 @@
+name = "Curio of Undying (Forge)"
+filename = "curioofundying-forge-1.16.5-5.2.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0f3e3940a25a89c2937a86688c2f3948e662d862"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3308969
+project-id = 316873
