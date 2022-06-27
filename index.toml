@@ -589,6 +589,9 @@ file = "config/waystones-common.toml"
 file = "config/xaerominimap.txt"
 
 [[files]]
+file = "config/xaerominimap_entities.json"
+
+[[files]]
 file = "config/xaeroworldmap.txt"
 
 [[files]]
