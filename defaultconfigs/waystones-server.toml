@@ -14,7 +14,7 @@
 		minimumXpCost = 0.0
 		#The maximum base xp cost (may be exceeded by multipliers defined below), set to 0 to disable all distance-based XP costs
 		#Range: 0.0 ~ Infinity
-		maximumXpCost = 0.0
+		maximumXpCost = 3.0
 
 	#These options apply to teleporting from one waystone to another by right-clicking it.
 	[server.waystoneToWaystone]
@@ -23,7 +23,7 @@
 		waystoneXpCostMultiplier = 1.0
 		#The multiplier applied to the base xp cost when teleporting from one sharestone to another.
 		#Range: 0.0 ~ Infinity
-		sharestoneXpCostMultiplier = 1.0
+		sharestoneXpCostMultiplier = 0.5
 		#The multiplier applied to the base xp cost when teleporting from a portstone.
 		#Range: 0.0 ~ Infinity
 		portstoneXpCostMultiplier = 0.0
@@ -52,7 +52,7 @@
 	[server.globalWaystones]
 		#The multiplier applied to the base xp cost when teleporting to a global waystone through any method.
 		#Range: 0.0 ~ Infinity
-		globalWaystonesXpCostMultiplier = 1.0
+		globalWaystonesXpCostMultiplier = 0.0
 		#The multiplier applied to the cooldown when teleporting to a global waystone via inventory button or warp stone.
 		#Range: 0.0 ~ Infinity
 		globalWaystoneCooldownMultiplier = 1.0
@@ -81,10 +81,10 @@
 	[server.dimensionalWarp]
 		#Set to 'ALLOW' to allow dimensional warp in general. Set to 'GLOBAL_ONLY' to restrict dimensional warp to global waystones. Set to 'DENY' to disallow all dimensional warps.
 		#Allowed Values: ALLOW, GLOBAL_ONLY, DENY
-		dimensionalWarp = "ALLOW"
+		dimensionalWarp = "GLOBAL_ONLY"
 		#The base xp level cost when travelling between dimensions. Ignores block distance.
 		#Range: > 0
-		dimensionalWarpXpCost = 3
+		dimensionalWarpXpCost = 5
 
 	#These options apply to taking leashed mobs with you when teleporting.
 	[server.leashedMobs]
