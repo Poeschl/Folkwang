@@ -45,3 +45,5 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           folder: dist # The folder the action should deploy.
+          clean-exclude: Folkwang-rolling.zip
+          single-commit: true
