@@ -26,6 +26,9 @@ jobs:
       - name: 📝 List mods
         run: ./packwiz list
 
+      - name: ⚙️ Build file hashes
+        run: ./packwiz refresh --build
+
       - name: ⚙️ Copy Pack files
         uses: up9cloud/action-rsync@v1.3
         env:
