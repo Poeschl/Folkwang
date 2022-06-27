@@ -29,7 +29,7 @@ The import is done via the "Add instance" button on the top left of PolyMC, then
 the following url:
 
 ```
-http://localhost:8080/pack.toml
+https://poeschl.github.io/Folkwang/Folkwang-rolling.zip
 ```
 
 PolyMC will now download the needed metadata and will install all mods on the first start.
@@ -38,7 +38,7 @@ PolyMC will now download the needed metadata and will install all mods on the fi
 
 ## Curseforge
 
-**Coming soon**
+**Coming maybe**
 
 ## Server-Version
 
@@ -50,7 +50,7 @@ jar file and put it inside the folder where the `forge-1.16.5-36.2.35.jar` is lo
 
 ```shell
 # Download all pack resources
-java -jar packwiz-installer-bootstrap.jar -s server http://localhost:8080/pack.toml
+java -jar packwiz-installer-bootstrap.jar -s server https://poeschl.github.io/Folkwang/pack.toml
 ```
 
 It will download all neede modfiles and scripts and an linux script to let you start your server easily.
