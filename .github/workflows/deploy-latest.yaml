@@ -1,0 +1,44 @@
+name: Deploy master to GH pages
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    name: Deploy to GH Pages
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: ↩️ Checkout
+        uses: actions/checkout@v3
+
+      - name: 🏗️ Set up packwiz
+        uses: dawidd6/action-download-artifact@v2
+        with:
+          repo: packwiz/packwiz
+          workflow: go.yml
+          name: Linux 64-bit x86
+
+      - name: 🏗️ Set up packwiz II
+        run: chmod +x packwiz
+
+      - name: 📝 List mods
+        run: ./packwiz list
+
+      - name: ⚙️ Copy Pack files
+        uses: up9cloud/action-rsync@v1.3
+        env:
+          TARGET: ./dist
+          MODE: local
+          ARGS: -avz --exclude '.git' --exclude '.github' --exclude '.packwizignore' --exclude 'packwiz'
+          SOURCE: .
+
+      - name: ⚙️ Build Curseforge Client pack
+        run: ./packwiz curseforge export --side client -o ./dist/Folkwang-latest.zip
+
+      - name: 🚀 Deploy
+        uses: JamesIves/github-pages-deploy-action@v4.3.4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          folder: dist # The folder the action should deploy.
