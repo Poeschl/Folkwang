@@ -3,11 +3,11 @@
 An own custom Minecraft modpack based on [Valhelsia 3](https://github.com/ValhelsiaTeam/Valhelsia-3).
 It focus on an relaxed playstyle for different interests.
 
-Want to do some bloody magic or communicate with elfs to get mystical flowers?
-Suit yourself up and fight the bosses of the twilight forest.
-Build a powerfull reactor and automate all of your daily tasks.
-Explore several biomes in several worlds, to find a nice place to stay.
-Simply build yourself a nice and cozy home to live in.
+* Want to do some bloody magic or communicate with elfs to get mystical flowers?
+* Suit yourself up and fight the bosses of the twilight forest.
+* Build a powerfull reactor and automate all of your daily tasks.
+* Explore several biomes in several worlds, to find a nice place to stay.
+* Simply build yourself a nice and cozy home to live in.
 
 What will it be for you? Find out for yourself.
 

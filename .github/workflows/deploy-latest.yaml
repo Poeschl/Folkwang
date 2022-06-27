@@ -34,7 +34,7 @@ jobs:
         env:
           TARGET: ./dist
           MODE: local
-          ARGS: -avz --exclude '.git' --exclude '.github' --exclude '.packwizignore' --exclude 'packwiz'
+          ARGS: -avz --exclude '.git' --exclude '.github' --exclude '.packwizignore' --exclude 'packwiz' --exclude 'README.md'
           SOURCE: .
 
       - name: ⚙️ Build Curseforge Client pack
