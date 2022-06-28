@@ -38,7 +38,10 @@ PolyMC will now download the needed metadata and will install all mods on the fi
 
 ## Curseforge
 
-**Coming maybe**
+If you want to use Curseforge to get the modpack, browse to [Folkwang](https://www.curseforge.com/minecraft/modpacks/folkwang)
+or search in the Curseforge Launcher for "Folkwang".
+
+Make sure to look out for updates, since its not updating for itself (I think).
 
 ## Server-Version
 

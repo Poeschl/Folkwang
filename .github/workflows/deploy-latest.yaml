@@ -1,12 +1,12 @@
-name: Deploy master to GH pages
+name: Deploy master
 on:
   push:
     branches:
       - main
 
 jobs:
-  build:
-    name: Deploy to GH Pages
+  polymc:
+    name: Deploy PolyMC Modpack
     runs-on: ubuntu-latest
     steps:
 
@@ -37,13 +37,47 @@ jobs:
           ARGS: -avz --exclude '.git' --exclude '.github' --exclude '.packwizignore' --exclude 'packwiz' --exclude 'README.md'
           SOURCE: .
 
-      - name: ⚙️ Build Curseforge Client pack
-        run: ./packwiz curseforge export --side client -o ./dist/Folkwang-latest.zip
-
-      - name: 🚀 Deploy
+      - name: 🚀 Deploy Pack to GH pages
         uses: JamesIves/github-pages-deploy-action@v4.3.4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           folder: dist # The folder the action should deploy.
           clean-exclude: Folkwang-rolling.zip
           single-commit: true
+
+  curseforge:
+    name: Deploy CurseForge Modpack
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: ↩️ Checkout
+        uses: actions/checkout@v3
+
+      - name: 🏗️ Set up packwiz
+        uses: dawidd6/action-download-artifact@v2
+        with:
+          repo: packwiz/packwiz
+          workflow: go.yml
+          name: Linux 64-bit x86
+
+      - name: 🏗️ Set up packwiz II
+        run: chmod +x packwiz
+
+      - name: 📝 List mods
+        run: ./packwiz list
+
+      - name: ⚙️ Build file hashes
+        run: ./packwiz refresh --build
+
+      - name: ⚙️ Build Curseforge Client pack
+        id: pack_file
+        run: ./packwiz curseforge export --side client -o Folkwang-latest-${GITHUB_SHA:0:7}.zip && echo "::set-output name=artefact::Folkwang-latest-${GITHUB_SHA:0:7}.zip"
+
+      - name: 🚀 Upload to CurseForge
+        uses: itsmeow/curseforge-upload@v3.1.0
+        with:
+          file_path: "${{steps.pack_file.outputs.artefact}}"
+          game_endpoint: minecraft
+          game_versions: '1.16.5'
+          project_id: '637214'
+          token: "${{ secrets.CF_API_TOKEN }}"
