@@ -4,6 +4,9 @@ hash-format = "sha256"
 file = "CREDITS.md"
 
 [[files]]
+file = "LICENSE"
+
+[[files]]
 file = "config/Advancedperipherals/general.toml"
 
 [[files]]
@@ -539,9 +542,6 @@ file = "config/serverconfigupdater-common.toml"
 
 [[files]]
 file = "config/servertabinfo-client.toml"
-
-[[files]]
-file = "config/simple-rpc.toml"
 
 [[files]]
 file = "config/storagedrawers-common.toml"
@@ -1739,10 +1739,6 @@ metafile = true
 
 [[files]]
 file = "mods/serverconfig-updater.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/simple-discord-rpc.pw.toml"
 metafile = true
 
 [[files]]
