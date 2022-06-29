@@ -28,15 +28,15 @@ They will be updated on every start of the modpack.
 The import is done via the "Add instance" button on the top left of PolyMC, then choose "Import from zip file" and enter
 the following url:
 
-```
+```txt
 https://poeschl.github.io/Folkwang/Folkwang-rolling.zip
 ```
 
 PolyMC will now download the needed metadata and will install all mods on the first start.
-*Make sure the modpack has more then 3GB of memory available.* If not, see 
+*Make sure the modpack has more then 4GB of memory available.* If not, see 
 [this help](https://github.com/MultiMC/Launcher/wiki/Increasing-Java's-memory-allocation).
 
-## Curseforge
+### Curseforge
 
 If you want to use Curseforge to get the modpack, browse to [Folkwang](https://www.curseforge.com/minecraft/modpacks/folkwang)
 or search in the Curseforge Launcher for "Folkwang".
