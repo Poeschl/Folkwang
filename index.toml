@@ -1742,6 +1742,10 @@ file = "mods/serverconfig-updater.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/simple-voice-chat.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/smooth-boot-forge.pw.toml"
 metafile = true
 
