@@ -56,10 +56,16 @@ jar file and put it inside the folder where the `forge-1.16.5-36.2.35.jar` is lo
 java -jar packwiz-installer-bootstrap.jar -s server https://poeschl.github.io/Folkwang/pack.toml
 ```
 
-It will download all neede modfiles and scripts and an linux script to let you start your server easily.
-When you are running on a machine with less then 4 GB of memory adjust the memory setting inside of the start script.
-Otherwise you can execute the script and your Forkwang server should be booting up. (Don't forget about that `eula.txt`)
+It will download all needed modfiles and configs let you start your server easily.
+The recommended requirements for running a server is 6 GB of memory and Java 11.
+For starting I use following command for my server.
 
+```shell
+java -jar -Xmx6G \
+  -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1 \
+  forge-1.16.5-36.2.35.jar nogui
+
+```
 
 ## Building packs manually
 
