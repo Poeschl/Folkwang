@@ -1,5 +1,5 @@
 #The disk space limit for computers and turtles, in bytes
-computer_space_limit = 1000000
+computer_space_limit = 3000000
 #The disk space limit for floppy disks, in bytes
 floppy_space_limit = 125000
 #Set how many files a computer can have open at the same time. Set to 0 for unlimited.
@@ -62,14 +62,30 @@ command_require_creative = true
 	[[http.rules]]
 		#The maximum size (in bytes) that a computer can send or receive in one websocket packet.
 		max_websocket_message = 131072
-		host = "*"
+		host = "*.pastebin.com"
 		#The maximum size (in bytes) that a computer can upload in a single request. This includes headers and POST text.
 		max_upload = 4194304
 		action = "allow"
 		#The maximum size (in bytes) that a computer can download in a single request. Note that responses may receive more data than allowed, but this data will not be returned to the client.
 		max_download = 16777216
 		#The period of time (in milliseconds) to wait before a HTTP request times out. Set to 0 for unlimited.
-		timeout = 30000
+		timeout = 5000
+
+	[[http.rules]]
+		max_websocket_message = 131072
+		host = "raw.githubusercontent.com"
+		max_upload = 4194304
+		action = "allow"
+		max_download = 16777216
+		timeout = 5000
+
+	[[http.rules]]
+		max_websocket_message = 131072
+		host = "*.github.io"
+		max_upload = 4194304
+		action = "allow"
+		max_download = 16777216
+		timeout = 5000
 
 #Various options relating to peripherals.
 [peripheral]
