@@ -370,6 +370,9 @@ file = "config/defaultoptions/keybindings.txt"
 file = "config/defaultoptions/options.txt"
 
 [[files]]
+file = "config/ding.toml"
+
+[[files]]
 file = "config/drawerfps-common.toml"
 
 [[files]]
@@ -577,6 +580,9 @@ file = "config/upgrade_aquatic-client.toml"
 file = "config/valhelsia_structures-common.toml"
 
 [[files]]
+file = "config/voicechat-client.toml"
+
+[[files]]
 file = "config/waila/waila.json"
 
 [[files]]
@@ -692,6 +698,9 @@ file = "defaultconfigs/structurize-server.toml"
 
 [[files]]
 file = "defaultconfigs/torchslabmod-server.toml"
+
+[[files]]
+file = "defaultconfigs/voicechat-server.toml"
 
 [[files]]
 file = "defaultconfigs/waystones-server.toml"
@@ -2537,6 +2546,3 @@ file = "packmenu/resources/pack.png"
 
 [[files]]
 file = "paintings/paintings.json"
-
-[[files]]
-file = "startServer"
