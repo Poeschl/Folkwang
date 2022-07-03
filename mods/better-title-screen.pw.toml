@@ -1,6 +1,6 @@
 name = "Better Title Screen"
 filename = "BetterTitleScreen-1.16.4-1.10.2.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
