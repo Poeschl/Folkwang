@@ -90,7 +90,7 @@
 		Cooldown = 30
 		#The maximum amount of animals allowed around the trough's range for an animal to enter love mode
 		"Max Animals" = 32
-		Range = 10.0
+		Range = 2.5
 
 [building]
 	"Duskbound Blocks" = true
