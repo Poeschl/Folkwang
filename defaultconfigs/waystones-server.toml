@@ -43,7 +43,7 @@
 		inventoryButton = "NONE"
 		#The multiplier applied to the base xp cost when teleporting via the inventory button.
 		#Range: 0.0 ~ Infinity
-		inventoryButtonXpCostMultiplier = 0.0
+		inventoryButtonXpCostMultiplier = 1.0
 		#The cooldown between usages of the inventory button in seconds.
 		#Range: > 0
 		inventoryButtonCooldown = 300
@@ -63,7 +63,7 @@
 	[server.warpStone]
 		#The multiplier applied to the base xp cost when teleporting using a Warp Stone item (not the Waystone block, John)
 		#Range: 0.0 ~ Infinity
-		warpStoneXpCostMultiplier = 0.0
+		warpStoneXpCostMultiplier = 1.0
 		#The cooldown between usages of the warp stone in seconds. This is bound to the player, not the item, so multiple warp stones share the same cooldown.
 		#Range: > 0
 		warpStoneCooldown = 300
@@ -101,7 +101,7 @@
 	#These options define restrictions when managing waystones.
 	[server.restrictions]
 		#If enabled, only the owner of a waystone (the one who placed it) can rename it.
-		restrictRenameToOwner = false
+		restrictRenameToOwner = true
 		#If enabled, only creative players can place, edit or break waystones. This does NOT disable the crafting recipe.
 		restrictToCreative = false
 		#If enabled, waystones generated in worldgen are unbreakable.
