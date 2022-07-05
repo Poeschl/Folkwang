@@ -13,7 +13,8 @@ What will it be for you? Find out for yourself.
 
 ## Included mods
 
-For a list of included mods take a look in the [mods folder](https://github.com/Poeschl/Folkwang/tree/main/mods).
+For a list of included mods take a look in the [mods list](https://poeschl.github.io/Folkwang/mods.txt).
+It gets automatically updated on each version.
 
 ## Voice Mod
 

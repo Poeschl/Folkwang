@@ -23,11 +23,11 @@ jobs:
       - name: 🏗️ Set up packwiz II
         run: chmod +x packwiz
 
-      - name: 📝 List mods
-        run: ./packwiz list
-
       - name: ⚙️ Build file hashes
         run: ./packwiz refresh --build
+
+      - name: 📝 List mods
+        run: ./packwiz list > mods.txt
 
       - name: ⚙️ Copy Pack files
         uses: up9cloud/action-rsync@v1.3
@@ -62,9 +62,6 @@ jobs:
 
       - name: 🏗️ Set up packwiz II
         run: chmod +x packwiz
-
-      - name: 📝 List mods
-        run: ./packwiz list
 
       - name: ⚙️ Build file hashes
         run: ./packwiz refresh --build
