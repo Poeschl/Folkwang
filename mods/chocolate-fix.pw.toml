@@ -1,0 +1,13 @@
+name = "Chocolate Fix"
+filename = "chocolate-1.3.0-1.16.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "68ca692b864e20c01fbd14c551091dcb65c593b5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3166929
+project-id = 416306

@@ -1,0 +1,13 @@
+name = "BlockCarpentry"
+filename = "blockcarpentry-1.16-0.4.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "754f8c4deac53f13f87f289c189e0720bbab5464"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3810410
+project-id = 401658

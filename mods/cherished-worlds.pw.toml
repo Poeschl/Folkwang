@@ -1,0 +1,13 @@
+name = "Cherished Worlds (Forge)"
+filename = "cherishedworlds-forge-1.16.5-5.1.1.0.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "3e3d0838dab16d4b78ca8a3e4c3f3c21a55b1c1f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3372376
+project-id = 308240

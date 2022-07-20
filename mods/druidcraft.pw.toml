@@ -1,0 +1,13 @@
+name = "Druidcraft"
+filename = "Druidcraft-1.16.5-0.4.54.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "87c961a879ce277a992c8f1d2ce17dc060bcf0c4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3507029
+project-id = 340991

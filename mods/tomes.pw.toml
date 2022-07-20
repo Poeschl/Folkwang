@@ -1,0 +1,13 @@
+name = "Tomes"
+filename = "tomes-1.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "200824af0bd3a615f3097dff57b6ed8352744e0f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3737961
+project-id = 534416

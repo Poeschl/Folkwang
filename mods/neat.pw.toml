@@ -1,0 +1,13 @@
+name = "Neat"
+filename = "Neat 1.7-27.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c11c05f861f274d1750859c27f77c2d5cca8574f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3182258
+project-id = 238372

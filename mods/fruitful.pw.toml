@@ -1,0 +1,13 @@
+name = "Fruitful"
+filename = "Fruitful-1.16.5-2.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "badcbc6de51815cea00c7ca1c5c7cb2372619bf9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3342857
+project-id = 395502

@@ -1,0 +1,13 @@
+name = "Pollen"
+filename = "pollen-forge-1.4.4+1.16.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "41abf2126f7271547bc6e9c5d63dd7d905abf3e9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3841209
+project-id = 544350

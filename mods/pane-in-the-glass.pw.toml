@@ -1,0 +1,13 @@
+name = "Pane In The Glass"
+filename = "pitg-1.16.5-2.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "693f7fa0e445fc6f9a364fc547f49efd365f7131"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3432890
+project-id = 374529

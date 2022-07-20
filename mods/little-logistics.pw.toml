@@ -1,0 +1,13 @@
+name = "Little Logistics"
+filename = "littlelogistics-mc1.16.5-v1.0.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c76d4612919ad4e543b36e8e324d7c4e64339b3b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3707740
+project-id = 570050

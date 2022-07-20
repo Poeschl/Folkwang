@@ -1,0 +1,13 @@
+name = "Observable"
+filename = "observable-0.2.1-forge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1a7d3b1af5b6f9c6cfc7b27f931dec519f26ed7a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3586190
+project-id = 509575

@@ -1,0 +1,13 @@
+name = "Drawers Tooltip"
+filename = "DrawersTooltip-1.16.2-2.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c0cc5721963337e304193b6e8e964c79ea689c20"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3491850
+project-id = 381605

@@ -1,0 +1,13 @@
+name = "Extra Boats"
+filename = "extraboats-1.16.5-2.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "897595aa91903e85ff5dc359824df882c07fc359"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3549093
+project-id = 337396

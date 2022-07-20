@@ -1,0 +1,13 @@
+name = "Miner's Helmet"
+filename = "mining_helmet-1.16.5-2.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0d7bbf4b1cd4673247a2e115a6dcf5cd88a801a4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3273200
+project-id = 351948

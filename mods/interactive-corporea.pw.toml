@@ -1,0 +1,13 @@
+name = "Interactive Corporea"
+filename = "interactive_corporea-1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "51eb82f589bbd8adefe82f1d2c1e11da3591fde4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3637434
+project-id = 573610

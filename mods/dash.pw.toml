@@ -1,0 +1,13 @@
+name = "Dash"
+filename = "dash-1.16.4-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d53134baf127d01dfe9301c6041e51a47e534120"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3100345
+project-id = 370782

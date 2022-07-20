@@ -1,0 +1,13 @@
+name = "Compat O' Plenty"
+filename = "Compat-O-Plenty-1.16.5-1.0.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "bbd08642f61e00891f9b8dd621d96f7be5e2f5c7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3671758
+project-id = 558850

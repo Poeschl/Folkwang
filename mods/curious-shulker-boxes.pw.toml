@@ -1,0 +1,13 @@
+name = "Curious Shulker Boxes (Forge)"
+filename = "curiousshulkerboxes-forge-1.16.5-4.0.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2ef7361590b05e68b9b53910f9f551c07e1a0000"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3175855
+project-id = 316881

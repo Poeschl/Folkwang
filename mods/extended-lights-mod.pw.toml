@@ -1,0 +1,13 @@
+name = "Extended Lights"
+filename = "extlights-3.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d29d3bb33be37fa5b01b22333b3743f12835617c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3144281
+project-id = 335051

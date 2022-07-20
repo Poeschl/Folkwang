@@ -1,0 +1,13 @@
+name = "Better Badlands"
+filename = "Better-Badlands-1.16.5-2.0.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "11580c0eb9b51dee312983037dcfced5f5e55a28"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3195284
+project-id = 421763
