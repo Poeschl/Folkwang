@@ -62,7 +62,7 @@ command_require_creative = true
 	[[http.rules]]
 		#The maximum size (in bytes) that a computer can send or receive in one websocket packet.
 		max_websocket_message = 131072
-		host = "*.pastebin.com"
+		host = "*"
 		#The maximum size (in bytes) that a computer can upload in a single request. This includes headers and POST text.
 		max_upload = 4194304
 		action = "allow"
@@ -71,21 +71,21 @@ command_require_creative = true
 		#The period of time (in milliseconds) to wait before a HTTP request times out. Set to 0 for unlimited.
 		timeout = 5000
 
-	[[http.rules]]
-		max_websocket_message = 131072
-		host = "raw.githubusercontent.com"
-		max_upload = 4194304
-		action = "allow"
-		max_download = 16777216
-		timeout = 5000
+	# [[http.rules]]
+	# 	max_websocket_message = 131072
+	# 	host = "raw.githubusercontent.com"
+	# 	max_upload = 4194304
+	# 	action = "allow"
+	# 	max_download = 16777216
+	# 	timeout = 5000
 
-	[[http.rules]]
-		max_websocket_message = 131072
-		host = "*.github.io"
-		max_upload = 4194304
-		action = "allow"
-		max_download = 16777216
-		timeout = 5000
+	# [[http.rules]]
+	# 	max_websocket_message = 131072
+	# 	host = "*.github.io"
+	# 	max_upload = 4194304
+	# 	action = "allow"
+	# 	max_download = 16777216
+	# 	timeout = 5000
 
 #Various options relating to peripherals.
 [peripheral]
