@@ -349,6 +349,9 @@ file = "config/cofh_core-client.toml"
 file = "config/colouredtooltips-client.toml"
 
 [[files]]
+file = "config/computercraft-client.toml"
+
+[[files]]
 file = "config/connectivity-common.toml"
 
 [[files]]
@@ -521,9 +524,6 @@ file = "config/overloadedarmorbar-client.toml"
 
 [[files]]
 file = "config/packmenu.cfg"
-
-[[files]]
-file = "config/performant-common.toml"
 
 [[files]]
 file = "config/quark-common.toml"
@@ -1663,10 +1663,6 @@ file = "mods/peculiars.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/performant.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/personality.pw.toml"
 metafile = true
 
@@ -1716,6 +1712,10 @@ metafile = true
 
 [[files]]
 file = "mods/rhino.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/roadrunner.pw.toml"
 metafile = true
 
 [[files]]
