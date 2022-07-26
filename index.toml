@@ -1451,6 +1451,10 @@ file = "mods/kotlin-for-forge.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/krypton-reforged.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/kubejs-blood-magic.pw.toml"
 metafile = true
 
