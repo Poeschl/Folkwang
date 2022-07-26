@@ -1667,6 +1667,10 @@ file = "mods/personality.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/phosphor-reforged.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/placebo.pw.toml"
 metafile = true
 
