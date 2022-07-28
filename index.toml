@@ -547,6 +547,9 @@ file = "config/serverconfigupdater-common.toml"
 file = "config/servertabinfo-client.toml"
 
 [[files]]
+file = "config/sophisticatedbackpacks-common.toml"
+
+[[files]]
 file = "config/storagedrawers-common.toml"
 
 [[files]]
@@ -1772,6 +1775,10 @@ metafile = true
 
 [[files]]
 file = "mods/snow-under-trees.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/sophisticated-backpacks.pw.toml"
 metafile = true
 
 [[files]]
