@@ -1823,10 +1823,6 @@ file = "mods/the-conjurer.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/the-mighty-architect.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/the-twilight-forest.pw.toml"
 metafile = true
 
