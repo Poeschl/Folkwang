@@ -16,13 +16,6 @@ What will it be for you? Find out for yourself.
 For a list of included mods take a look in the [mods list](https://poeschl.github.io/Folkwang/mods.txt).
 It gets automatically updated on each version.
 
-## Voice Mod
-
-In the pack the Simple Voice Chat mod is included. That means Voice chatting without any service like TS3 or Discord is possible.
-
-Per default its voice-activated but muted, to change the settings press `.` while in game to change any voice related settings.
-That way nobody can hear you until you enable it.s
-
 ## Use this pack
 
 ### PolyMC
