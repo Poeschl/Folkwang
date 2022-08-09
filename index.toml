@@ -1078,6 +1078,10 @@ file = "mods/chalk.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/chat-heads.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/cherished-worlds.pw.toml"
 metafile = true
 
