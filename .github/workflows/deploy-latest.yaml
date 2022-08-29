@@ -38,7 +38,7 @@ jobs:
           SOURCE: .
 
       - name: 🚀 Deploy Pack to GH pages
-        uses: JamesIves/github-pages-deploy-action@v4.3.4
+        uses: JamesIves/github-pages-deploy-action@v4.4.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           folder: dist # The folder the action should deploy.
