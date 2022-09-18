@@ -1,0 +1,13 @@
+name = "Powah!"
+filename = "Powah-1.16.5-2.3.16.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a0e7523f89f465b68f8444e86a1dbe82f3a90414"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3232535
+project-id = 352656

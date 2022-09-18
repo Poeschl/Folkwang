@@ -1,0 +1,13 @@
+name = "Darker Depths"
+filename = "darkerdepths-1.16.5-1.1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "71acc778d36a4571353576e7f2c87dcde0636bb1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3458010
+project-id = 460681

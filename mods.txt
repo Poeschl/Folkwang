@@ -1,0 +1,263 @@
+Abnormals Delight
+Absent by Design
+Abundance
+Advanced Peripherals
+AI Improvements
+AIOT Botania
+Akashic Tome
+Alex's Mobs
+Allurement
+AmbientSounds 5
+Anti Mob Griefing
+Apotheosis
+AppleSkin
+Aquaculture 2
+Archer's Paradox
+Architectury API (Fabric/Forge)
+Armor Toughness Bar
+Artifacts
+Astral Sorcery
+Atmospheric
+AttributeFix
+Atum 2: Return to the Sands
+AutoRegLib
+Autumnity
+Back Tools
+Bad Wither No Cookie - Reloaded
+Bamboo Blocks
+Bayou Blues
+Bed Benefits
+Bedspreads (Forge)
+Berry Good
+Better Advancements
+Better Badlands
+Better Biome Blend
+Better Burning
+Better Title Screen
+BetterEnd Reforked
+BetterF3
+Biomes O' Plenty
+BlockCarpentry
+Blood Magic 
+Blue Skies
+Blueprint
+Bookshelf
+Botania
+Building Gadgets
+Buzzier Bees
+Caelus API (Forge)
+Carry On
+Cat Jammies
+Catalogue
+CaveBiomeAPI [Forge]
+CC: Tweaked
+Chalk
+Chat Heads
+Cherished Worlds (Forge)
+Chisels & Bits - For Forge
+Chocolate Fix
+Chunk Loaders
+Citadel
+Client Tweaks
+Cloth Config API (Fabric/Forge)
+Clumps
+CodeChicken Lib 1.8.+
+CoFH Core
+Coloured Tooltips
+Comforts (Forge)
+Compat O' Plenty
+Configured
+Connectible Chains [FORGE]
+Connectivity[Forge/Fabric]
+Controlling
+Cookielicious
+Cooking for Blockheads
+Cosmetic Armor Reworked
+Crafting Tweaks
+Create
+Create Crafts & Additions
+CreativeCore
+ConnectedTexturesMod
+Curio of Undying (Forge)
+Curios Quark Oddities Backpack
+Curios API (Forge)
+Curious Armor Stands
+Curious Elytra (Forge)
+Curious Shulker Boxes (Forge)
+Customizable Elytra
+Dark Utilities
+Darker Depths
+Dash
+Decorative Blocks modded compat
+Decorative Blocks
+Default Options
+Differentiate
+Ding
+DrawerFPS
+Drawers Tooltip
+Druidcraft
+Dungeons Libraries
+Dungeons Mobs
+Dusk[Forge/Fabric]
+Dynamic Surroundings
+Eidolon
+Enchanted Book Redesign
+Ender Storage 1.8.+
+The Endergetic Expansion
+Engineer's Decor
+Enhanced Mushrooms
+Ensorcellation
+Environmental
+Etched
+ExpandAbility
+Extended Lights
+Extra Boats
+Fairy Lights
+Farmer's Delight
+Farsight [Forge]
+Farsighted Mobs (Forge)
+Fast Leaf Decay
+Fast Furnace minus Replacement
+FastWorkbench Minus Replacement
+FerriteCore (Forge)
+Fishing Real
+Flux Networks
+Flywheel
+Forbidden and Arcanus
+Fruitful
+FTB Backups (Forge)
+GeckoLib
+Goblin Traders
+Health Overlay (Forge)
+iChunUtil
+Immersive Engineering
+Immersive Petroleum
+Immersive Posts
+In Control!
+Industrial Foregoing
+Interactive Corporea
+Inventory HUD+
+Iron Chests
+Jade 🔍
+JAOPCA
+JEI Integration
+Just Enough Items (JEI)
+Just Enough Effect Descriptions (JEED)
+Just Enough Resources (JER)
+Kiwi 🥝 (Forge)
+KleeSlabs
+Kotlin for Forge
+Krypton Reforged
+KubeJS Blood Magic
+KubeJS Create
+KubeJS Immersive Engineering
+KubeJS Mekanism
+KubeJS
+Lazy DataFixerUpper(LazyDFU) [FORGE]
+Leap
+LibX
+Light Overlay (Rift/Forge/Fabric)
+Little Logistics
+Login Protection[Forge/Fabric]
+Lollipop
+Macaw's Bridges
+Macaw's Doors
+Macaw's Fences and Walls
+Macaw's Furniture
+Macaw's Roofs
+Macaw's Trapdoors
+Macaw's Windows
+Mannequins
+Mekanism Additions
+Mekanism Generators
+Mekanism Tools
+Mekanism
+MineColonies
+Miner's Helmet
+Sound Device Options
+Mouse Tweaks
+Mowzie's Mobs
+Music Maker Mod
+mutil
+Mystical World
+MythicBotany
+Nature's Compass
+Neapolitan
+Neat
+Neon Craft Mod
+Netherite Horse Armor Mod
+Nether's Delight
+No Recipe Book Reborn
+Not Enough Crashes (Forge)
+Notes
+Observable
+ObserverLib
+Open Loader
+OpenBlocks Elevator
+Overloaded Armor Bar
+PackMenu
+Paintings ++
+Pane In The Glass
+Patchouli
+Peculiars
+Performant
+Personality
+Sulfuric
+Placebo
+PneumaticCraft: Repressurized
+Pollen
+Polymorph (Forge)
+Powah!
+Psi
+Quark Oddities
+Quark
+RandomPatches (Forge)
+Refined Storage Addons
+Refined Storage
+Rhino
+Refined Storage: Requestify
+Runelic
+Savage & Ravage
+Scuba Gear
+Seamless Loading Screen (Forge)
+Seasonals
+Selene Lib
+Server Tab Info
+ServerConfig Updater
+Smooth Boot (Forge)
+Snow! Real Magic! ⛄ (Forge)
+Snow Under Trees
+Sophisticated Backpacks
+spark
+Step
+Storage Drawers
+Structure Gel API
+Structurize
+SuperMartijn642's Config Lib
+Supplementaries
+SwingThroughGrass
+Tetra Pak
+Tetra
+Tetranomicon
+The Conjurer
+The Twilight Forest
+Titanium
+Toast Control
+Tomes
+Tool Stats
+Torchmaster
+Torch Slabs Mod
+Transport
+TrashSlot
+Upgrade Aquatic
+Valhelsia Core
+Valhelsia Structures
+Waddles
+Waystones
+Windowlogging
+Xaero's Minimap
+Xaero's World Map
+YUNG's API (Forge)
+YUNG's Better Caves (Forge)
+YUNG's Better Mineshafts (Forge)
+YUNG's Better Strongholds (Forge)

@@ -1,0 +1,13 @@
+name = "Ding"
+filename = "Ding-1.16.5-1.3.0.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "0b4d0ae3f81306b89f385f84beec51bb112297be"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3222705
+project-id = 231275

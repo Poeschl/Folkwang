@@ -1,0 +1,13 @@
+name = "No Recipe Book Reborn"
+filename = "norecipebookreborn-1.0.1.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "36bafe3dd8139b11cc0a1d4850c9fc978676b884"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3541681
+project-id = 551314

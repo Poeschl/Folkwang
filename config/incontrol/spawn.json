@@ -1,0 +1,7 @@
+[
+  {
+    "biome": ["minecraft:the_end"],
+    "mob": "mysticalworld:endermini",
+    "result": "deny"
+  }
+]

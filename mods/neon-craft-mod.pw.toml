@@ -1,0 +1,13 @@
+name = "Neon Craft Mod"
+filename = "neoncraft-2.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a1fd56dfabfbf6bffba440f090b08a654f1085d2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3023655
+project-id = 399802

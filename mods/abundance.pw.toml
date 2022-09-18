@@ -1,0 +1,13 @@
+name = "Abundance"
+filename = "Abundance-1.16.5-1.0.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "320a8cd0eea1e1d5cba6c8a68edc7f88f119a684"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3250108
+project-id = 452345
