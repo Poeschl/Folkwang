@@ -18,23 +18,23 @@ It gets automatically updated on each version.
 
 ## Use this pack
 
-### PolyMC
+### PrismLauncher
 
-The recommended way of launching this modpack is with [PolyMC](https://polymc.org/).
+The recommended way of launching this modpack is with [PrismLauncher](https://prismlauncher.org/).
 It allows to play modpacks from several big modpack plattforms and does not track any usage of it.
 
 With this way you are always automatically up-to-date with the latest files of Folkwang.
 They will be updated on every start of the modpack.
 
-The import is done via the "Add instance" button on the top left of PolyMC, then choose "Import from zip file" and enter
+The import is done via the "Add instance" button on the top left of PrismLauncher, then choose "Import from zip file" and enter
 the following url:
 
 ```txt
 https://poeschl.github.io/Folkwang/Folkwang-rolling.zip
 ```
 
-PolyMC will now download the needed metadata and will install all mods on the first start.
-*Make sure the modpack has more then 4GB of memory available.* If not, see 
+PrismLauncher will now download the needed metadata and will install all mods on the first start.
+*Make sure the modpack has more then 4GB of memory available.* If not, see
 [this help](https://github.com/MultiMC/Launcher/wiki/Increasing-Java's-memory-allocation).
 
 ### Curseforge
@@ -70,7 +70,7 @@ java -jar -Xmx6G \
 
 ## Building packs manually
 
-To create a CurseForge / PolyMC compatible modpack the software [packwiz](https://packwiz.infra.link/) is used.
+To create a CurseForge / PrismLauncher compatible modpack the software [packwiz](https://packwiz.infra.link/) is used.
 It need to be installed on the system which creates the final pack.
 
 After installing the client and server pack can be build by running
