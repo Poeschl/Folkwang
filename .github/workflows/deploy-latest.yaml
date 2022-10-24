@@ -71,7 +71,7 @@ jobs:
         run: ./packwiz curseforge export --side client -o Folkwang-latest-${GITHUB_SHA:0:7}.zip && echo "::set-output name=artefact::Folkwang-latest-${GITHUB_SHA:0:7}.zip"
 
       - name: 🚀 Upload to CurseForge
-        uses: itsmeow/curseforge-upload@v3.1.0
+        uses: itsmeow/curseforge-upload@3.1.1
         with:
           file_path: "${{steps.pack_file.outputs.artefact}}"
           game_endpoint: minecraft
